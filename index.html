@@ -1,16 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Meu Site Pessoal</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site sobre mim</title>
+    <link href="assets/imgs/css/meu_estilo.css" type="text/css" rel="stylesheet">
 </head>
+
 <body>
     <nav>
-        Menu
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#redes_sociais">Redes Sociais</a></li>
     </nav>
-    <div class="conteudo">
-        Corpo
+    <div class="conteudo">corpo do site
+        <section id="home">
+            <center><img src="assets/imgs/OIP.jfif">
+        </section>
+        </center>
+        <h1>GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git.
+            Ele permite que programadores, utilitários ou qualquer usuário cadastrado na plataforma contribuam em
+            projetos privados e/ou Open Source de qualquer lugar do mundo. </h1>
+        <p>Visualiza os arquivos que foram alterados</p>
+        <p class="comando-git">
+            git status
+        </p>
+        <p>Prepara um arquivo pra ser versionado</p>
+        <p class="comando-git">
+            git add nome_de_um_arquivo
+        </p>
+        <p>Gera a versão das modificações</p>
+        <p class="comando-git">
+            git commit -m "uma mensagem legal do que foi feito nos arquivos nesta versão"
+        </p>
+        <p>Envia para o github</p>
+        <p class="comando-git">
+            git push origin main
+        </p>
+        </section>
+
+        <section id="projetos">
+            <div class="projeto">
+                <img src="assets/imgs/arraxca.jfif">
+
+                <div>
+                    <p>resumo do projeto</p>
+                    <div class="labels">
+                        <span>HTML</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="projeto">
+                <img src="assets/imgs/arraxca.jfif">
+
+                <div>
+                    <p>resumo do projeto</p>
+                    <div class="labels">
+                        <span>JavaScript</span>
+                        <span>CSS</span>
+                    </div>
+                </div>
+
+        </section>
+
+        <section id="redes_sociais">
+            redes sociais
+        </section>
     </div>
-    <footer>Rodape</footer>
+    <footer>rodapé</footer>
 </body>
+
 </html>
